@@ -27,7 +27,7 @@ app.use(express.json());
 connectDB();
 //default route
 app.get("/",(req,res)=>{
-  res.json("Welcome to Convocation portal")
+  res.json("Welcome to Padmasai World")
 })
 //routes
 const userRoutes = require("./routes/User");
